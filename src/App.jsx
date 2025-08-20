@@ -18,15 +18,18 @@ function App() {
 
          <div className="input-box">
           <label>Profissional Responsavel</label>
-          <select id="select-input">
-            <option value="TI">TI</option>
-            <option value="CA">CA</option>
+          <select id="responsavel">
+            <option value="" disabled selected>Escolha um responsável</option>
+            <option value="rodrigo">Rodrigo</option>
+            <option value="leonardo">Leonardo</option>
+            <option value="elias">Elias</option>
+            <option value="julio">Julio</option>
           </select>
          </div>
 
          <div className="input-box">
           <label>Descrição</label>
-          <textarea id="description"></textarea>
+          <textarea id="description" rows={5}></textarea>
          </div>
 
          <div className="input-box">
